@@ -6,7 +6,7 @@ $(document).ready(function() {
 
 function setTimer(sec) {
     if (sec === 0) {
-        $('#startBtn').hide()
+        $('#startBtn').show()
         $('#seconds').css({
             'font-size': '24px',
             'color': 'black'
