@@ -6,6 +6,7 @@ $(document).ready(function() {
 
 function setTimer(sec) {
     if (sec === 0) {
+        $('#seconds').text("");
         $('#startBtn').show()
         $('#seconds').css({
             'font-size': '24px',
